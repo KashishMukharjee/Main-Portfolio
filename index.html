@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashish Mukharjee | Portfolio</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p class="loader-text">Loading<span class="loader-dots"></span></p>
+        </div>
+    </div>
+
+    <!-- Animated Gradient Background -->
+    <div class="animated-bg"></div>
+
+    <!-- Instant Opening Effect -->
+    <div class="instant-effect"></div>
+
+    <!-- Animated Background -->
+    <div class="bg-effects">
+        <div class="grid-bg"></div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+        <div class="line line-4"></div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Geometric Shapes -->
+    <div class="geometric-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo"><span class="logo-text"><Dev/></span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#training" class="nav-link">Training</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge reveal">
+                    <span class="badge-dot"></span>
+                    Available for work
+                </div>
+                <h1 class="hero-title reveal">
+                    Hi, I'm
+                    <br>
+                    <span class="gradient-text" id="typewriter">Kashish Mukharjee</span>
+                    <span class="cursor">|</span>
+                </h1>
+                <p class="hero-subtitle reveal">Cyber Security Enthusiast</p>
+                <p class="hero-description reveal">
+                    I'm Kashish Mukharjee, currently pursuing B.Tech in CSE with Cyber Security.
+                    I love exploring how technology works and how to secure it.
+                    I'm always learning, building, and improving my technical skills.
+                    I aim to grow into a skilled cybersecurity professional.
+                </p>
+                <div class="hero-buttons reveal">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+                <div class="cv-buttons reveal">
+                    <a href="https://drive.google.com/file/d/1FwIPFht1MP5QCyTlY16bzswyfrj_yKdn/view?usp=sharing" target="_blank" class="btn-cv btn-cv-view">
+                        <i class="fas fa-eye"></i>
+                        <span>View CV</span>
+                    </a>
+                    <a href="https://drive.google.com/uc?export=download&id=1FwIPFht1MP5QCyTlY16bzswyfrj_yKdn" class="btn-cv btn-cv-download">
+                        <i class="fas fa-download"></i>
+                        <span>Download CV</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image reveal">
+                <div class="profile-photo">
+                    <div class="photo-frame">
+                        <img src="../imageP.jpeg" alt="Kashish Mukharjee" class="profile-img" id="profile-img">
+                        <div class="photo-glow"></div>
+                        <div class="photo-ring"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"><div class="wheel"></div></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">What I Know</span>
+                <h2 class="section-title">Skills & <span class="gradient-text">Expertise</span></h2>
+                <p class="section-subtitle">Technologies and tools I use to bring ideas to life</p>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill Card 1: Cyber Security -->
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3 class="skill-name">Cyber Security</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="80"><span class="skill-percentage">0%</span></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Firewalls</span><span>Penetration Testing</span><span>Kali Linux</span><span>Network Config</span>
+                    </div>
+                </div>
+                <!-- Skill Card 2: Programming Languages -->
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3 class="skill-name">Programming Languages</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="75"><span class="skill-percentage">0%</span></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Python</span><span>C++</span><span>Java</span>
+                    </div>
+                </div>
+                <!-- Skill Card 3: Web Development -->
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-globe"></i></div>
+                    <h3 class="skill-name">Web Development & Tools</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="75"><span class="skill-percentage">0%</span></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span>HTML</span><span>CSS</span><span>MySQL</span><span>GitHub</span>
+                    </div>
+                </div>
+                <!-- Skill Card 4: Tools & Platforms -->
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3 class="skill-name">Tools & Platforms</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="80"><span class="skill-percentage">0%</span></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span>VS Code</span><span>VMware</span><span>Jupyter Notebook</span><span>Google Colab</span>
+                    </div>
+                </div>
+                <!-- Skill Card 5: Soft Skills -->
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-users"></i></div>
+                    <h3 class="skill-name">Soft Skills</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="90"><span class="skill-percentage">0%</span></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Problem-solving</span><span>Adaptability</span><span>Leadership</span><span>Socially Active</span><span>Quick Learner</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">My Work</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">Things I've built that I'm proud of</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal">
+                    <a href="https://github.com/KashishMukharjee/Secure-Notepad-" target="_blank" class="project-card-link">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-lock"></i></div>
+                        <div class="project-overlay">
+                            <span class="project-link"><i class="fab fa-github"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Secure Notepad <i class="fas fa-external-link-alt" style="font-size: 0.7em;"></i></h3>
+                        <p class="project-description">
+                            A Flask-based web application that allows users to securely create, manage, and store personal notes with authentication, password hashing, and database-backed storage.
+                        </p>
+                        <div class="project-tags">
+                            <span>Flask</span><span>Python</span><span>MySQL</span><span>Authentication</span>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card reveal">
+                    <a href="https://github.com/KashishMukharjee/Alarm-Clock-Application" target="_blank" class="project-card-link">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-clock"></i></div>
+                        <div class="project-overlay">
+                            <span class="project-link"><i class="fab fa-github"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Alarm Clock Application <i class="fas fa-external-link-alt" style="font-size: 0.7em;"></i></h3>
+                        <p class="project-description">
+                            A C++ console-based alarm clock application developed during a DSA internship, implementing linked lists and basic algorithms.
+                        </p>
+                        <div class="project-tags">
+                            <span>C++</span><span>DSA</span><span>Linked Lists</span>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card reveal">
+                    <a href="https://github.com/KashishMukharjee/calculator-" target="_blank" class="project-card-link">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-calculator"></i></div>
+                        <div class="project-overlay">
+                            <span class="project-link"><i class="fab fa-github"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Calculator <i class="fas fa-external-link-alt" style="font-size: 0.7em;"></i></h3>
+                        <p class="project-description">
+                            A basic calculator application for performing arithmetic operations.
+                        </p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card reveal">
+                    <a href="https://github.com/KashishMukharjee/floyd-triangle" target="_blank" class="project-card-link">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-triangle"></i></div>
+                        <div class="project-overlay">
+                            <span class="project-link"><i class="fab fa-github"></i></span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Floyd's Triangle <i class="fas fa-external-link-alt" style="font-size: 0.7em;"></i></h3>
+                        <p class="project-description">
+                            Implementation of Floyd's triangle pattern using C++.
+                        </p>
+                        <div class="project-tags">
+                            <span>C++</span><span>Algorithms</span>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Section -->
+    <section id="training" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Learning</span>
+                <h2 class="section-title">Professional <span class="gradient-text">Training</span></h2>
+                <p class="section-subtitle">Courses and programs that shaped my skills</p>
+            </div>
+            <div class="training-slider">
+                <!-- Training 1 -->
+                <div class="training-card reveal">
+                    <div class="training-icon"><i class="fas fa-laptop-code"></i></div>
+                    <div class="training-content">
+                        <span class="training-provider">Lovely Professional University</span>
+                        <h3 class="training-title">Summer Internship in Data Structures & Algorithms using C++</h3>
+                        <p class="training-duration"><i class="far fa-clock"></i> Summer • 2025</p>
+                        <p class="training-description">
+                            Completed an intensive summer internship program focusing on fundamental data structures and algorithms implementation using C++, including linked lists, trees, sorting, and searching algorithms.
+                        </p>
+                    </div>
+                </div>
+                <!-- Training 2 -->
+                <div class="training-card reveal">
+                    <div class="training-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="training-content">
+                        <span class="training-provider">NPTEL</span>
+                        <h3 class="training-title">Privacy and Security in Online Social Media</h3>
+                        <p class="training-duration"><i class="far fa-clock"></i> Online Course • 2025</p>
+                        <p class="training-description">
+                            Completed a comprehensive NPTEL course covering privacy concerns, security threats, and best practices for maintaining safety on online social media platforms.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Verified</span>
+                <h2 class="section-title">Certifications & <span class="gradient-text">Badges</span></h2>
+                <p class="section-subtitle">Credentials that validate my expertise</p>
+            </div>
+            <div class="certifications-grid">
+                <!-- Cert 1 -->
+                <div class="certification-card reveal">
+                    <div class="cert-badge">
+                        <div class="cert-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="cert-glow"></div>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">NPTEL Certificate</h3>
+                        <span class="cert-issuer">NPTEL</span>
+                        <span class="cert-date">Issued 2025</span>
+                        <a href="https://drive.google.com/file/d/13tuF9SfWdMmRD9Un4ZPW4f-Li2GrbGZJ/view?usp=sharing" target="_blank" class="cert-btn">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Cert 2 -->
+                <div class="certification-card reveal">
+                    <div class="cert-badge">
+                        <div class="cert-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div class="cert-glow"></div>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Summer Internship Certificate</h3>
+                        <span class="cert-issuer">Lovely Professional University</span>
+                        <span class="cert-date">Issued 2025</span>
+                        <a href="https://drive.google.com/file/d/1VJltHqcAUNVvVXzxFRRClf8SQIKujL7n/view?usp=sharing" target="_blank" class="cert-btn">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Cert 3 -->
+                <div class="certification-card reveal">
+                    <div class="cert-badge">
+                        <div class="cert-icon"><i class="fas fa-robot"></i></div>
+                        <div class="cert-glow"></div>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Master Generative AI & Gen AI Tools</h3>
+                        <span class="cert-issuer">Online Course</span>
+                        <span class="cert-date">Issued 2025</span>
+                        <a href="https://drive.google.com/file/d/1M-LhKPDJK0HUdbZKuZebGOhCkiLZdZh_/view?usp=sharing" target="_blank" class="cert-btn">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Cert 4 -->
+                <div class="certification-card reveal">
+                    <div class="cert-badge">
+                        <div class="cert-icon"><i class="fas fa-brain"></i></div>
+                        <div class="cert-glow"></div>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Computational Theory & Finite Automata</h3>
+                        <span class="cert-issuer">NPTEL</span>
+                        <span class="cert-date">Issued 2025</span>
+                        <a href="https://drive.google.com/file/d/1eNDNsADXJunBTGJ79oXG2i4U7DYIoluS/view?usp=sharing" target="_blank" class="cert-btn">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Cert 5 -->
+                <div class="certification-card reveal">
+                    <div class="cert-badge">
+                        <div class="cert-icon"><i class="fas fa-comment-dots"></i></div>
+                        <div class="cert-glow"></div>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">ChatGPT Made Easy - AI Essentials</h3>
+                        <span class="cert-issuer">Online Course</span>
+                        <span class="cert-date">Issued 2025</span>
+                        <a href="https://drive.google.com/file/d/1Uebo_9ZD8pcyv9uncvvpo4-6H13jOR2S/view?usp=sharing" target="_blank" class="cert-btn">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Cert 6 -->
+                <div class="certification-card reveal">
+                    <div class="cert-badge">
+                        <div class="cert-icon"><i class="fas fa-magic"></i></div>
+                        <div class="cert-glow"></div>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Build Gen AI Apps with No-Code Tools</h3>
+                        <span class="cert-issuer">Online Course</span>
+                        <span class="cert-date">Issued 2025</span>
+                        <a href="https://drive.google.com/file/d/188CvMDQQsvB1CqWZEgRqK35CJzIZHdsO/view?usp=sharing" target="_blank" class="cert-btn">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Recognition</span>
+                <h2 class="section-title">Key <span class="gradient-text">Achievements</span></h2>
+                <p class="section-subtitle">Milestones I'm proud of</p>
+            </div>
+            <div class="achievements-grid">
+                <!-- Achievement 1 -->
+                <div class="achievement-card reveal">
+                    <div class="achievement-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Cybersecurity Exploration</h3>
+                        <p class="achievement-description">
+                            Explored cybersecurity concepts through practical experimentation and tools.
+                        </p>
+                    </div>
+                </div>
+                <!-- Achievement 2 -->
+                <div class="achievement-card reveal">
+                    <div class="achievement-icon"><i class="fas fa-network-wired"></i></div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Network Analysis</h3>
+                        <p class="achievement-description">
+                            Practiced basic network scanning and analysis techniques.
+                        </p>
+                    </div>
+                </div>
+                <!-- Achievement 3 -->
+                <div class="achievement-card reveal">
+                    <div class="achievement-icon"><i class="fas fa-book-reader"></i></div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Continuous Learning</h3>
+                        <p class="achievement-description">
+                            Continuously learning new technologies and cybersecurity practices beyond academic curriculum.
+                        </p>
+                    </div>
+                </div>
+                <!-- Achievement 4 -->
+                <div class="achievement-card reveal">
+                    <div class="achievement-icon"><i class="fas fa-user-secret"></i></div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Ethical Hacking</h3>
+                        <p class="achievement-description">
+                            Actively exploring tools and techniques used in ethical hacking and network analysis.
+                        </p>
+                    </div>
+                </div>
+                <!-- Achievement 5 -->
+                <div class="achievement-card reveal">
+                    <div class="achievement-icon"><i class="fas fa-lightbulb"></i></div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Self-Learning</h3>
+                        <p class="achievement-description">
+                            Demonstrated self-learning ability by working on independent technical projects.
+                        </p>
+                    </div>
+                </div>
+                <!-- Achievement 6 -->
+                <div class="achievement-card reveal">
+                    <div class="achievement-icon"><i class="fas fa-desktop"></i></div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Virtual Environments</h3>
+                        <p class="achievement-description">
+                            Set up and worked with virtual environments for testing and experimentation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Background</span>
+                <h2 class="section-title">Education & <span class="gradient-text">Academic</span></h2>
+                <p class="section-subtitle">My academic journey</p>
+            </div>
+            <div class="education-grid">
+                <!-- Education 1 - B.Tech -->
+                <div class="education-card reveal">
+                    <div class="education-header">
+                        <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="education-info">
+                            <span class="education-period">2023 - 2027</span>
+                            <h3 class="education-degree">B.Tech in Computer Science & Engineering</h3>
+                            <h4 class="education-school">Lovely Professional University</h4>
+                        </div>
+                    </div>
+                    <div class="education-details">
+                        <p class="education-gpa"><i class="fas fa-star"></i> CGPA: 6.58/10</p>
+                        <p class="education-honors"><i class="fas fa-certificate"></i> Currently Pursuing</p>
+                    </div>
+                    <div class="education-tags">
+                        <span>Cyber Security</span><span>Programming</span>
+                    </div>
+                </div>
+                <!-- Education 2 - 12th -->
+                <div class="education-card reveal">
+                    <div class="education-header">
+                        <div class="education-icon"><i class="fas fa-school"></i></div>
+                        <div class="education-info">
+                            <span class="education-period">Completed</span>
+                            <h3 class="education-degree">Higher Secondary (12th)</h3>
+                            <h4 class="education-school">DAV School</h4>
+                        </div>
+                    </div>
+                    <div class="education-details">
+                        <p class="education-gpa"><i class="fas fa-percentage"></i> Percentage: 68.4%</p>
+                    </div>
+                    <div class="education-tags">
+                        <span>PCM</span><span>Physics</span><span>Chemistry</span><span>Mathematics</span>
+                    </div>
+                </div>
+                <!-- Education 3 - 10th -->
+                <div class="education-card reveal">
+                    <div class="education-header">
+                        <div class="education-icon"><i class="fas fa-award"></i></div>
+                        <div class="education-info">
+                            <span class="education-period">Completed</span>
+                            <h3 class="education-degree">Secondary Education (10th)</h3>
+                            <h4 class="education-school">DAV School</h4>
+                        </div>
+                    </div>
+                    <div class="education-details">
+                        <p class="education-gpa"><i class="fas fa-percentage"></i> Percentage: 85%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Let's Talk</span>
+                <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                <p class="section-subtitle">Have a project in mind? Let's collaborate!</p>
+            </div>
+            <div class="contact-content reveal">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:mukharjeekashish2006@gmail.com">mukharjeekashish2006@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+917488490145">+91-7488490145</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-buttons">
+                    <a href="https://github.com/KashishMukharjee" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/kashish-mukharjee/" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                © 2024 Portfolio. Crafted with <i class="fas fa-heart"></i> and lots of <i class="fas fa-coffee"></i>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
